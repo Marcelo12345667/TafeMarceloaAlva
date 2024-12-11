@@ -3,131 +3,118 @@
 1. List three major version control software for software engineering.
     ## anwser p2 q1
     ```
-    ... type your anwser here
+    ...    - Git
+           - Subversion (SVN)
+           - Mercurial
     ```
 
 2. What are the main advantages to using Git in your software development, and how is it useful for game developers.
     ## anwser p2 q2
     ```
-    ... type your anwser here
+    ...  - Distributed version control system
+         - Strong support for non-linear development
+         - Strong community support
     ```
 
 3. Define the following terms in relation to Git. Branch, Pull, Push, repository, working copy, merge
     ## anwser p2 q3
     ```
-    ... type your anwser here
+    ... - **Branch:** a parallel version of the MAIN branch
+        - **Pull:** Fetching changes and merging them to different repositories
+        - **Push:** Sending changes to a remote repository.
+        - **Repository:** storage for your project, including its history.
+        - **Working Copy:** The copy of files where edits are made.
+        - **Merge:** Combining changes from different branches or forks.
+
     ```
 
 4. If you are working at a company, which of their policies and procedures might relate to using version control systems such as Git.
     ## anwser p2 q4
     ```
-    ... type your anwser here
+    ... - policies on branching strategies
+        - procedures for code reveiws and pull request workflows.
+        - guidelines for handling sensitive information in repositories.
     ```
 
 5. Merge conflicts can occur while using git. List merge tools or diff tools you can use to help you merge and deal with conflicts.
     ## anwser p2 q5
     ```
-    ... type your anwser here
+    ... - Diff tools: Beyond Compare, KDiff3, Meld
+        - Merge tools: TortoiseMerge, Araxis Merge, P4Merge
+
     ```
 
 6. In a merged source code file, how does Git let you know there is a conflict?
     ## anwser p2 q6
     ```
-    ... type your anwser here
+    ...   -  Git inserts conflict markers <<<<<<<, =======, >>>>>>> into the file where conflicts exist.
     ```
 
 7. What are the steps you can take to resolve Git conflicts?
     ## anwser p2 q17
     ```
-    ... type your anwser here
+    ... - Identify conflicting files using git status or merge tool.
+        - Edit conflicted files to resolve differences manually.
+        - Stage resolved files with git add and commit changes.
+
     ```
 
 8. What does git revert do, and how can you use it?
     ## anwser p2 q8
     ```
-    ... type your anwser here
+    ...  - git revert undoes a commit by making a new one
+
     ```
 
 9. What does git reset do, and how can you use it? 
     ## anwser p2 q9
     ```
-    ... type your anwser here
+    ... - git reset move the head and branch pointer to a new commit
+
     ```
 
 10. What is the difference between git revert and git reset?
     ## anwser p2 q10
     ```
-    ... type your anwser here
+    ...  - git revet create a new git
+         - git reset moves the current branch pointer
+
     ```
 
 11. True or False: It is okay to commit broken code to the main branch.
     ## anwser p2 q11
     ```
-    ... type your anwser here
+    ... - false
+
     ```
 
 12. True or False: You should commit related changes. For example, fixing two different bugs should produce two separate commits.
     ## anwser p2 q12
     ```
-    ... type your anwser here
+    ...  - true 
+
     ```
 
 13. Describe what is DevOps, how is it useful for game developers?
     ## anwser p2 q13
     ```
-    ... type your anwser here
+    ... - devops is the intergration of development and operation teams to automate software deliveries                                                dev ops facilitate continuous intergration, deployment, and monitoring of games
+
     ```
 
 14. List what tools can be used with DevOps. Give a brief description of each one. (at least 3)
     ## anwser p2 q14
     ```
-    ... type your anwser here
+    ...  - Jenkins Automation server for building, testing, and deploying software.
+         - Docker Containerization platform for packaging applications and their dependencies.
+         - Ansible Configuration management tool for automating application deployment and system 
     ```
 
 15. What is CI/CD and how can it be used to automate the game development process?
     ## anwser p2 q15
     ```
-    ... type your anwser here
-    ```
+    ... - continuous Integration and Continuous Deployment.
+	- automates the process of integrating code changes, running tests, and deploying builds.
+	- For game development, CI/CD ensures frequent updates, stable builds, and quicker iteration cycles.
 
-# Part 3: Git Manual
-Imagine you are working at a game studio, and they want you to help with installing Git. 
-
-1. Write instructions on installing git on a windows system. Making sure to include
-
-    a. What are the requirements to install Git on a system.
-    ## anwser p3 q1a
-
-    ```
-    ... type your anwser here
-    ```
-
-    b. If you had issues installing Git the workplace, give instructions on who you could you enquire about the installation disruption.
-    ## anwser p3 q1b
-
-    ```
-    ... type your anwser here
-    ```
-
-2. Do research on some principles/techniques of industry standard best practices creating and working with repositories and branches in Git.
-
-    a. List the most important principles/techniques for creating and working with repositories
-    ## anwser p3 q2a
-
-    ```
-    ... type your anwser here
-    ```
-
-    b. List the most important principles/techniques for creating and working with branches
-    
-    ## anwser p3 q2b
-    ```
-    ... type your anwser here
-    ```
-
-3. List the steps in a Git workflow that the team should follow when working on projects.
-    ## anwser p3 q3
-
-    ```
-    ... type your anwser here
     ```
